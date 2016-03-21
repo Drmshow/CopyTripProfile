@@ -14,6 +14,13 @@
 		F1339C2B1CA03A3E0076EAAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1339C2A1CA03A3E0076EAAC /* Images.xcassets */; };
 		F1339C2E1CA03A3E0076EAAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1339C2C1CA03A3E0076EAAC /* LaunchScreen.xib */; };
 		F1339C3A1CA03A3E0076EAAC /* CopyTripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1339C391CA03A3E0076EAAC /* CopyTripTests.m */; };
+		F1339C4B1CA03AAC0076EAAC /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1339C431CA03AAC0076EAAC /* 0.jpg */; };
+		F1339C4C1CA03AAC0076EAAC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1339C441CA03AAC0076EAAC /* 1.jpg */; };
+		F1339C4D1CA03AAC0076EAAC /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1339C451CA03AAC0076EAAC /* 2.jpg */; };
+		F1339C4E1CA03AAC0076EAAC /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1339C461CA03AAC0076EAAC /* 3.jpg */; };
+		F1339C4F1CA03AAC0076EAAC /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1339C471CA03AAC0076EAAC /* 4.jpg */; };
+		F1339C501CA03AAC0076EAAC /* TouristCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1339C491CA03AAC0076EAAC /* TouristCityTableViewCell.m */; };
+		F1339C511CA03AAC0076EAAC /* TouristCityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1339C4A1CA03AAC0076EAAC /* TouristCityTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,14 @@
 		F1339C331CA03A3E0076EAAC /* CopyTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1339C381CA03A3E0076EAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1339C391CA03A3E0076EAAC /* CopyTripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyTripTests.m; sourceTree = "<group>"; };
+		F1339C431CA03AAC0076EAAC /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		F1339C441CA03AAC0076EAAC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F1339C451CA03AAC0076EAAC /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		F1339C461CA03AAC0076EAAC /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		F1339C471CA03AAC0076EAAC /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		F1339C481CA03AAC0076EAAC /* TouristCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouristCityTableViewCell.h; sourceTree = "<group>"; };
+		F1339C491CA03AAC0076EAAC /* TouristCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouristCityTableViewCell.m; sourceTree = "<group>"; };
+		F1339C4A1CA03AAC0076EAAC /* TouristCityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouristCityTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,14 @@
 		F1339C1C1CA03A3E0076EAAC /* CopyTrip */ = {
 			isa = PBXGroup;
 			children = (
+				F1339C431CA03AAC0076EAAC /* 0.jpg */,
+				F1339C441CA03AAC0076EAAC /* 1.jpg */,
+				F1339C451CA03AAC0076EAAC /* 2.jpg */,
+				F1339C461CA03AAC0076EAAC /* 3.jpg */,
+				F1339C471CA03AAC0076EAAC /* 4.jpg */,
+				F1339C481CA03AAC0076EAAC /* TouristCityTableViewCell.h */,
+				F1339C491CA03AAC0076EAAC /* TouristCityTableViewCell.m */,
+				F1339C4A1CA03AAC0076EAAC /* TouristCityTableViewCell.xib */,
 				F1339C211CA03A3E0076EAAC /* AppDelegate.h */,
 				F1339C221CA03A3E0076EAAC /* AppDelegate.m */,
 				F1339C241CA03A3E0076EAAC /* ViewController.h */,
@@ -199,9 +222,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1339C511CA03AAC0076EAAC /* TouristCityTableViewCell.xib in Resources */,
+				F1339C4F1CA03AAC0076EAAC /* 4.jpg in Resources */,
+				F1339C4D1CA03AAC0076EAAC /* 2.jpg in Resources */,
+				F1339C4B1CA03AAC0076EAAC /* 0.jpg in Resources */,
 				F1339C291CA03A3E0076EAAC /* Main.storyboard in Resources */,
 				F1339C2E1CA03A3E0076EAAC /* LaunchScreen.xib in Resources */,
 				F1339C2B1CA03A3E0076EAAC /* Images.xcassets in Resources */,
+				F1339C4E1CA03AAC0076EAAC /* 3.jpg in Resources */,
+				F1339C4C1CA03AAC0076EAAC /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +251,7 @@
 				F1339C261CA03A3E0076EAAC /* ViewController.m in Sources */,
 				F1339C231CA03A3E0076EAAC /* AppDelegate.m in Sources */,
 				F1339C201CA03A3E0076EAAC /* main.m in Sources */,
+				F1339C501CA03AAC0076EAAC /* TouristCityTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
